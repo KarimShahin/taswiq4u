@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17950" data-name="Rectangle 17950" width="24" height="24" transform="translate(1367 1397)" fill="#2d3142" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_29556" data-name="Mask Group 29556" transform="translate(-1367 -1397)" clip-path="url(#clip-path)">
+    <g id="ads" transform="translate(1372.467 1402.178)">
+      <g id="_18._google_ads_logo" data-name="18. google ads logo" transform="translate(0 0.833)">
+        <path id="Path_219316" data-name="Path 219316" d="M12.738,9.134C9.574,3.656,8.11.89,7.81,1.19a2.45,2.45,0,0,0-3.425.92C3.972,2.818,5.872-.471.351,9.1a2.45,2.45,0,1,0,4.22,2.491c.193-.338-.7,1.209,1.963-3.4l1.96,3.4a2.45,2.45,0,0,0,4.244-2.45ZM2.45,12.267A1.906,1.906,0,0,1,.8,9.409h0a.356.356,0,0,0,.019-.035A1.9,1.9,0,1,1,2.45,12.267ZM4.87,9.98a2.45,2.45,0,0,0-3.3-1.906l2.543-4.4c.1.637.291.833,2.1,3.977Zm5.747,2.287a1.906,1.906,0,0,1-1.65-.953C4.459,3.506,4.628,3.969,4.628,3.283A1.906,1.906,0,0,1,7.456,1.617c.577.256.49.3,4.794,7.756a1.906,1.906,0,0,1-1.633,2.894Z" transform="translate(0 -0.833)" fill="#2d3142"/>
+      </g>
+    </g>
+  </g>
+</svg>

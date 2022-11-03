@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17525" data-name="Rectangle 17525" width="30" height="30" transform="translate(1831.237 1024.237)" fill="#53b553" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_30962" data-name="Group 30962" transform="translate(-910 -1008)">
+    <g id="Ellipse_616" data-name="Ellipse 616" transform="translate(910 1008)" fill="#fff" stroke="#f4f4f8" stroke-width="1">
+      <circle cx="27.5" cy="27.5" r="27.5" stroke="none"/>
+      <circle cx="27.5" cy="27.5" r="27" fill="none"/>
+    </g>
+    <g id="Mask_Group_370" data-name="Mask Group 370" transform="translate(-908.737 -3.737)" clip-path="url(#clip-path)">
+      <path id="Icon_awesome-camera" data-name="Icon awesome-camera" d="M18.365,6.267V16.6a1.722,1.722,0,0,1-1.722,1.722H1.722A1.722,1.722,0,0,1,0,16.6V6.267A1.722,1.722,0,0,1,1.722,4.546H4.878l.441-1.18A1.719,1.719,0,0,1,6.93,2.25h4.5a1.719,1.719,0,0,1,1.611,1.116l.445,1.18h3.157A1.722,1.722,0,0,1,18.365,6.267Zm-4.878,5.165a4.3,4.3,0,1,0-4.3,4.3A4.308,4.308,0,0,0,13.487,11.433Zm-1.148,0A3.157,3.157,0,1,1,9.183,8.276,3.161,3.161,0,0,1,12.339,11.433Z" transform="translate(1837.055 1028.952)" fill="#53b553"/>
+    </g>
+  </g>
+</svg>

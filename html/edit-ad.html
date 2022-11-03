@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/edit-ad-ar.css" />
+		<link rel="stylesheet" href="../css/select-category-ar.css" />
+		<link rel="stylesheet" href="../css/select-category-modal-en.css" />
+		<link rel="stylesheet" href="../css/all-category-modal-en.css" />
+		<title>Edit Ad</title>
+	</head>
+
+	<body>
+		<!--------------- header ---------------------->
+		<header class="header">
+			<section class="header__top">
+				<!------------ country select menu ----------->
+				<div class="country">
+					<select class="selectpicker country__select" data-width="fit">
+						<option
+							class="country__option"
+							data-content='<span class="flag-icon flag-icon-us"></span> USA'
+						>
+							English
+						</option>
+						<option
+							class="country__option"
+							data-content='<span class="flag-icon flag-icon-eg"></span> Egypt'
+						>
+							Arabic
+						</option>
+					</select>
+					<p class="language">English</p>
+				</div>
+				<div class="social__links">
+					<!-- facebook icon -->
+					<a class="social__link">
+						<img
+							alt="facebook icon"
+							src="../assets/images/Mask Group 29537.png"
+							class="social__link__img"
+						/>
+					</a>
+					<!-- twitter icon -->
+					<a class="social__link">
+						<img
+							alt="twitter icon"
+							src="../assets/images/Mask Group 29535.png"
+							class="social__link__img"
+						/>
+					</a>
+					<!-- instagram icon -->
+					<a class="social__link">
+						<img
+							alt="instagram icon"
+							src="../assets/images/Mask Group 29536.png"
+							class="social__link__img"
+						/>
+					</a>
+					<!-- login button -->
+					<!-- <a class="login__btn">Login</a> -->
+				</div>
+			</section>
+			<!--------------- navbar ------------->
+			<nav class="navbar">
+				<!-- logo -->
+				<div class="navbar__logo">
+					<img alt="" src="../assets/images/logo.png" class="logo" />
+				</div>
+				<!-- tabs -->
+				<ul class="navbar__list">
+					<li class="navbar__tab">
+						<a class="navbar__link">Home</a>
+					</li>
+					<li class="navbar__tab">
+						<a class="navbar__link">
+							All Categories
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="all-categories__arrow"
+							/>
+						</a>
+					</li>
+					<li class="navbar__tab">
+						<a class="navbar__link">Offers</a>
+					</li>
+					<li class="navbar__tab">
+						<a class="navbar__link">Contact us</a>
+					</li>
+				</ul>
+				<!-- account -->
+				<div class="account">
+					<img class="chat__icon" src="../assets/images/chat.svg" alt="" />
+					<div class="account__details">
+						<img
+							class="account__img"
+							src="../assets/images/accout__img.png"
+							alt=""
+						/>
+						<p class="account__name">Ahmed</p>
+						<img
+							alt=""
+							src="../assets/images/Mask Group 29528.svg"
+							class="arrow__icon"
+						/>
+					</div>
+					<div class="account__popup">
+						<div class="popup__header">
+							<img
+								alt=""
+								src="../assets/images/accout__img.png"
+								class="account__img"
+							/>
+							<div class="account__content__details">
+								<p class="account__name">Ahmed</p>
+								<p class="account__number">+20 1052431536</p>
+							</div>
+						</div>
+						<div class="popup__content">
+							<p class="profile">
+								<img src="../assets/images/profile.svg" alt="" /> View Profile
+							</p>
+							<p class="my__ads">
+								<img src="../assets/images/my-ads.svg" alt="" /> My Ads
+							</p>
+							<p class="my__bundle">
+								<img src="../assets/images/bundle.svg" alt="" /> My Bundle
+							</p>
+							<p class="my__favorites">
+								<img src="../assets/images/my-favorites.svg" alt="" /> My
+								Favorites
+							</p>
+						</div>
+						<div class="popup__footer">
+							<img src="../assets/images/logout.svg" class="logout__icon" /> Log
+							out
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!----------- safety rules section ----------->
+
+		<section class="safety-rules">
+			<h2 class="safety-rules__title">Edit Your Ad</h2>
+			<div class="safety-rules__content">
+				<h3 class="title">Selected Category</h3>
+				<div class="breadcrumbs">
+					<div class="breadcrumbs__links">
+						cars & vehicles
+						<img src="../assets/images/Mask Group 3.svg" />
+						cars
+						<img src="../assets/images/Mask Group 3.svg" />
+						cars for sale
+					</div>
+					<a class="change__category">Change category</a>
+				</div>
+				<h3 class="title">Ad Details</h3>
+				<label for="title" class="title__label">
+					Ad Title
+					<input
+						name="title"
+						type="text"
+						placeholder="Ad Title"
+						class="title__input"
+					/>
+				</label>
+				<p class="country__label__container">Country of origin</p>
+				<div class="label__container">
+					<label class="radio-button">
+						<input type="radio" name="radio" checked="checked" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							American
+						</span>
+					</label>
+					<label class="radio-button">
+						<input type="radio" name="radio" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							Europian
+						</span>
+					</label>
+					<label class="radio-button">
+						<input type="radio" name="radio" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							Asian
+						</span>
+					</label>
+				</div>
+				<p class="model__label__container">Model</p>
+				<label class="model__label">
+					<input
+						type="text"
+						list=""
+						autocomplete="off"
+						name="model"
+						id="model-input"
+						role="combobox"
+						placeholder="Model"
+						class="model__input"
+					/>
+					<img
+						alt=""
+						src="../assets/images/Mask Group 3.svg"
+						class="select__arrow"
+					/>
+					<datalist class="datalist" id="model" role="listbox">
+						<option>whatever</option>
+						<option>whenever</option>
+					</datalist>
+				</label>
+				<p class="brand__label__container">Brand</p>
+				<label class="brand__label">
+					<input
+						type="text"
+						list=""
+						autocomplete="off"
+						name="brand"
+						id="brand-input"
+						role="combobox"
+						placeholder="Brand"
+						class="brand__input"
+					/>
+					<img
+						alt=""
+						src="../assets/images/Mask Group 3.svg"
+						class="select__arrow"
+					/>
+					<datalist class="datalist" id="brand" role="listbox">
+						<option>BMW</option>
+						<option>Alfa Romeo</option>
+					</datalist>
+				</label>
+				<p class="price__label__container">
+					Price
+					<label class="price__label">
+						<input type="text" placeholder="350,000" class="price__input" />
+						EGP
+					</label>
+				</p>
+				<p class="payment__label__container">Payment Method</p>
+				<div class="label__container">
+					<label class="radio-button">
+						<input type="radio" name="payment" checked="checked" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							Cash
+						</span>
+					</label>
+					<label class="radio-button">
+						<input type="radio" name="payment" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							Installment
+						</span>
+					</label>
+				</div>
+				<p class="condition__label__container">Condition</p>
+				<div class="label__container">
+					<label class="radio-button">
+						<input type="radio" name="condition" checked="checked" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							New
+						</span>
+					</label>
+					<label class="radio-button">
+						<input type="radio" name="condition" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							Used
+						</span>
+					</label>
+				</div>
+				<p class="years__label__container">Years</p>
+				<label class="years__label">
+					<input
+						type="text"
+						list=""
+						autocomplete="off"
+						name="years"
+						id="years-input"
+						role="combobox"
+						placeholder="Year"
+						class="year__input"
+					/>
+					<img
+						alt=""
+						src="../assets/images/Mask Group 3.svg"
+						class="select__arrow"
+					/>
+					<datalist class="datalist" id="years" role="listbox">
+						<option>2019</option>
+						<option>2018</option>
+					</datalist>
+				</label>
+				<p class="kilometers__label__container">Kilometers</p>
+				<label class="kilometers__label">
+					<input
+						type="text"
+						list=""
+						autocomplete="off"
+						name="kilometers"
+						id="kilometers-input"
+						role="combobox"
+						placeholder="Kilometers"
+						class="kilometers__input"
+					/>
+					<img
+						alt=""
+						src="../assets/images/Mask Group 3.svg"
+						class="select__arrow"
+					/>
+					<datalist class="datalist" id="kilometers" role="listbox">
+						<option>10,000</option>
+						<option>100,000</option>
+					</datalist>
+				</label>
+				<p class="transmission__label__container">Transmission Type</p>
+				<div class="label__container">
+					<label class="radio-button">
+						<input type="radio" name="transmission" checked="checked" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							Manual
+						</span>
+					</label>
+					<label class="radio-button">
+						<input type="radio" name="transmission" />
+						<span class="label-visible">
+							<span class="fake-radiobutton"></span>
+							Automatic
+						</span>
+					</label>
+				</div>
+				<p class="engine__label__container">Engine Capacity</p>
+				<label class="engine__label">
+					<input
+						type="text"
+						list=""
+						autocomplete="off"
+						name="engine"
+						id="engine-input"
+						role="combobox"
+						placeholder="Engine Capacity"
+						class="engine__input"
+					/>
+					<img
+						alt=""
+						src="../assets/images/Mask Group 3.svg"
+						class="select__arrow"
+					/>
+					<datalist class="datalist" id="engine" role="listbox">
+						<option>1300</option>
+						<option>1600</option>
+					</datalist>
+				</label>
+				<label class="description__label">
+					Description
+					<textarea class="description__input"></textarea>
+				</label>
+				<label class="upload__label">
+					<p>Upload ad photos <span>( up to 15 photo )</span></p>
+					<div class="file__input">
+						<input type="file" id="files" name="files" multiple />
+					</div>
+				</label>
+				<hr />
+				<p class="title">Location</p>
+				<p class="government__label__container">Government</p>
+				<label class="government__label">
+					<input
+						type="text"
+						list=""
+						autocomplete="off"
+						name="government"
+						id="government-input"
+						role="combobox"
+						placeholder="Government"
+						class="government__input"
+					/>
+					<img
+						alt=""
+						src="../assets/images/Mask Group 3.svg"
+						class="select__arrow"
+					/>
+					<datalist class="datalist" id="government" role="listbox">
+						<option>Cairo</option>
+						<option>Alex</option>
+					</datalist>
+				</label>
+				<p class="area__label__container">Area</p>
+				<label class="area__label">
+					<input
+						type="text"
+						list=""
+						autocomplete="off"
+						name="area"
+						id="area-input"
+						role="combobox"
+						placeholder="Area"
+						class="area__input"
+					/>
+					<img
+						alt=""
+						src="../assets/images/Mask Group 3.svg"
+						class="select__arrow"
+					/>
+					<datalist class="datalist" id="area" role="listbox">
+						<option>El Zaher</option>
+						<option>Maadi</option>
+						<option>Nasr city</option>
+					</datalist>
+				</label>
+				<label for="location" class="location__label">
+					Location
+					<input
+						name="location"
+						type="text"
+						placeholder="Location"
+						class="location__input"
+					/>
+				</label>
+				<label for="phone" class="phone__label">
+					Phone
+					<input
+						name="phone"
+						type="text"
+						placeholder="Phone"
+						class="phone__input"
+					/>
+				</label>
+				<label class="checkbox">
+					<input type="checkbox" name="check" />
+					<span class="label-visible">
+						<span class="fake-checkbox"></span>
+						Price is negotiable
+					</span>
+				</label>
+				<a class="save__btn">Save Changes</a>
+			</div>
+		</section>
+
+		<!-- select-category-modal -->
+		<div class="all-category__modal">
+			<div class="modal__container">
+				<div class="modal__header">
+					<p>Select Category</p>
+				</div>
+				<div class="modal__content">
+					<div class="menu">
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+					</div>
+					<div class="submenu">
+						<p class="back submenu__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu2">
+						<p class="back submenu2__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu3">
+						<p class="back submenu3__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu4">
+						<p class="back submenu4__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="select-category__modal">
+			<div class="modal__container">
+				<div class="modal__header">
+					<p>Select Category</p>
+				</div>
+				<div class="modal__content">
+					<div class="menu">
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+					</div>
+					<div class="submenu">
+						<p class="back submenu__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu2">
+						<p class="back submenu2__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu3">
+						<p class="back submenu3__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu4">
+						<p class="back submenu4__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- scripts -->
+		<script src="../js/all-category-modal.js"></script>
+		<script src="../js/select-category-modal.js"></script>
+		<script src="../js/safety-rules.js"></script>
+		<script>
+			$(function () {
+				$('.selectpicker').selectpicker();
+			});
+		</script>
+		<script>
+			const modelInput = document.querySelector('#model-input');
+			const model = document.querySelector('#model');
+			const brandInput = document.querySelector('#brand-input');
+			const brand = document.querySelector('#brand');
+			const yearInput = document.querySelector('#years-input');
+			const year = document.querySelector('#years');
+			const engineInput = document.querySelector('#engine-input');
+			const engine = document.querySelector('#engine');
+			const kilometersInput = document.querySelector('#kilometers-input');
+			const kilometers = document.querySelector('#kilometers');
+			const governmentInput = document.querySelector('#government-input');
+			const government = document.querySelector('#government');
+			const areaInput = document.querySelector('#area-input');
+			const area = document.querySelector('#area');
+
+			// model
+
+			modelInput.onfocus = function () {
+				brand.style.display = 'none';
+				year.style.display = 'none';
+				engine.style.display = 'none';
+				kilometers.style.display = 'none';
+				government.style.display = 'none';
+				area.style.display = 'none';
+				model.style.display = 'block';
+				modelInput.style.borderRadius = '0.25rem';
+			};
+
+			for (let option of model.options) {
+				option.addEventListener('click', function (e) {
+					e.preventDefault();
+					modelInput.value = option.value;
+					model.style.display = 'none';
+				});
+			}
+
+			modelInput.onclick = function (e) {
+				e.stopPropagation();
+				const text = e.target.value;
+				for (let option of model.options) {
+					option.classList.remove('active');
+				}
+
+				for (let option of model.options) {
+					if (option.value.indexOf(text) > -1 && text !== '') {
+						option.classList.add('active');
+					}
+				}
+			};
+
+			// brand
+
+			brandInput.onfocus = function () {
+				model.style.display = 'none';
+				year.style.display = 'none';
+				engine.style.display = 'none';
+				kilometers.style.display = 'none';
+				government.style.display = 'none';
+				area.style.display = 'none';
+				brand.style.display = 'block';
+				brandInput.style.borderRadius = '0.25rem';
+			};
+
+			for (let option of brand.options) {
+				option.addEventListener('click', function (e) {
+					e.preventDefault();
+					brandInput.value = option.value;
+					brand.style.display = 'none';
+				});
+			}
+
+			brandInput.onclick = function (e) {
+				e.stopPropagation();
+				const text = e.target.value;
+				for (let option of brand.options) {
+					option.classList.remove('active');
+				}
+
+				for (let option of brand.options) {
+					if (option.value.indexOf(text) > -1 && text !== '') {
+						option.classList.add('active');
+					}
+				}
+			};
+
+			// year
+
+			yearInput.onfocus = function () {
+				model.style.display = 'none';
+				brand.style.display = 'none';
+				engine.style.display = 'none';
+				kilometers.style.display = 'none';
+				government.style.display = 'none';
+				area.style.display = 'none';
+				year.style.display = 'block';
+				yearInput.style.borderRadius = '0.25rem';
+			};
+
+			for (let option of year.options) {
+				option.addEventListener('click', function (e) {
+					e.preventDefault();
+					yearInput.value = option.value;
+					year.style.display = 'none';
+				});
+			}
+
+			yearInput.onclick = function (e) {
+				e.stopPropagation();
+				const text = e.target.value;
+				for (let option of year.options) {
+					option.classList.remove('active');
+				}
+
+				for (let option of year.options) {
+					if (option.value.indexOf(text) > -1 && text !== '') {
+						option.classList.add('active');
+					}
+				}
+			};
+
+			// kilometers
+
+			kilometersInput.onfocus = function () {
+				model.style.display = 'none';
+				brand.style.display = 'none';
+				engine.style.display = 'none';
+				year.style.display = 'none';
+				government.style.display = 'none';
+				area.style.display = 'none';
+				kilometers.style.display = 'block';
+				kilometersInput.style.borderRadius = '0.25rem';
+			};
+
+			for (let option of kilometers.options) {
+				option.addEventListener('click', function (e) {
+					e.preventDefault();
+					kilometersInput.value = option.value;
+					kilometers.style.display = 'none';
+				});
+			}
+
+			kilometersInput.onclick = function (e) {
+				e.stopPropagation();
+				const text = e.target.value;
+				for (let option of kilometers.options) {
+					option.classList.remove('active');
+				}
+
+				for (let option of kilometers.options) {
+					if (option.value.indexOf(text) > -1 && text !== '') {
+						option.classList.add('active');
+					}
+				}
+			};
+
+			// engine
+
+			engineInput.onfocus = function () {
+				model.style.display = 'none';
+				brand.style.display = 'none';
+				kilometers.style.display = 'none';
+				year.style.display = 'none';
+				government.style.display = 'none';
+				area.style.display = 'none';
+				engine.style.display = 'block';
+				engineInput.style.borderRadius = '0.25rem';
+			};
+
+			for (let option of engine.options) {
+				option.addEventListener('click', function (e) {
+					e.preventDefault();
+					engineInput.value = option.value;
+					engine.style.display = 'none';
+				});
+			}
+
+			engineInput.onclick = function (e) {
+				e.stopPropagation();
+				const text = e.target.value;
+				for (let option of engine.options) {
+					option.classList.remove('active');
+				}
+
+				for (let option of engine.options) {
+					if (option.value.indexOf(text) > -1 && text !== '') {
+						option.classList.add('active');
+					}
+				}
+			};
+
+			// Government
+
+			governmentInput.onfocus = function () {
+				model.style.display = 'none';
+				brand.style.display = 'none';
+				kilometers.style.display = 'none';
+				year.style.display = 'none';
+				engine.style.display = 'none';
+				area.style.display = 'none';
+				government.style.display = 'block';
+				governmentInput.style.borderRadius = '0.25rem';
+			};
+
+			for (let option of government.options) {
+				option.addEventListener('click', function (e) {
+					e.preventDefault();
+					governmentInput.value = option.value;
+					government.style.display = 'none';
+				});
+			}
+
+			governmentInput.onclick = function (e) {
+				e.stopPropagation();
+				const text = e.target.value;
+				for (let option of government.options) {
+					option.classList.remove('active');
+				}
+
+				for (let option of government.options) {
+					if (option.value.indexOf(text) > -1 && text !== '') {
+						option.classList.add('active');
+					}
+				}
+			};
+
+			// Area
+
+			areaInput.onfocus = function () {
+				model.style.display = 'none';
+				brand.style.display = 'none';
+				kilometers.style.display = 'none';
+				year.style.display = 'none';
+				engine.style.display = 'none';
+				government.style.display = 'none';
+				area.style.display = 'block';
+				areaInput.style.borderRadius = '0.25rem';
+			};
+
+			for (let option of area.options) {
+				option.addEventListener('click', function (e) {
+					e.preventDefault();
+					areaInput.value = option.value;
+					area.style.display = 'none';
+				});
+			}
+
+			areaInput.onclick = function (e) {
+				e.stopPropagation();
+				const text = e.target.value;
+				for (let option of area.options) {
+					option.classList.remove('active');
+				}
+
+				for (let option of area.options) {
+					if (option.value.indexOf(text) > -1 && text !== '') {
+						option.classList.add('active');
+					}
+				}
+			};
+
+			document.body.addEventListener('click', () => {
+				engine.style.display = 'none';
+				model.style.display = 'none';
+				brand.style.display = 'none';
+				kilometers.style.display = 'none';
+				year.style.display = 'none';
+				government.style.display = 'none';
+				area.style.display = 'none';
+			});
+		</script>
+	</body>
+</html>

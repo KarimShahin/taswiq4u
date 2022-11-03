@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/terms-of-use-en.css" />
+		<link rel="stylesheet" href="../css/select-category-modal-en.css" />
+		<link rel="stylesheet" href="../css/all-category-modal-en.css" />
+		<title>Terms of Use</title>
+	</head>
+
+	<body>
+		<!--------------- header ---------------------->
+		<header class="header">
+			<section class="header__top">
+				<!------------ country select menu ----------->
+				<div class="country">
+					<select class="selectpicker country__select" data-width="fit">
+						<option
+							class="country__option"
+							data-content='<span class="flag-icon flag-icon-us"></span> USA'
+						>
+							English
+						</option>
+						<option
+							class="country__option"
+							data-content='<span class="flag-icon flag-icon-eg"></span> Egypt'
+						>
+							Arabic
+						</option>
+					</select>
+					<p class="language">English</p>
+				</div>
+				<div class="social__links">
+					<!-- facebook icon -->
+					<a class="social__link">
+						<img
+							alt="facebook icon"
+							src="../assets/images/Mask Group 29537.png"
+							class="social__link__img"
+						/>
+					</a>
+					<!-- twitter icon -->
+					<a class="social__link">
+						<img
+							alt="twitter icon"
+							src="../assets/images/Mask Group 29535.png"
+							class="social__link__img"
+						/>
+					</a>
+					<!-- instagram icon -->
+					<a class="social__link">
+						<img
+							alt="instagram icon"
+							src="../assets/images/Mask Group 29536.png"
+							class="social__link__img"
+						/>
+					</a>
+					<!-- login button -->
+					<!-- <a class="login__btn">Login</a> -->
+				</div>
+			</section>
+			<!--------------- navbar ------------->
+			<nav class="navbar">
+				<!-- logo -->
+				<div class="navbar__logo">
+					<img alt="" src="../assets/images/logo.png" class="logo" />
+				</div>
+				<!-- tabs -->
+				<ul class="navbar__list">
+					<li class="navbar__tab">
+						<a class="navbar__link">Home</a>
+					</li>
+					<li class="navbar__tab">
+						<a class="navbar__link">
+							All Categories
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="all-categories__arrow"
+							/>
+						</a>
+					</li>
+					<li class="navbar__tab">
+						<a class="navbar__link">Offers</a>
+					</li>
+					<li class="navbar__tab">
+						<a class="navbar__link">Contact us</a>
+					</li>
+				</ul>
+				<!-- account -->
+				<div class="account">
+					<img class="chat__icon" src="../assets/images/chat.svg" alt="" />
+					<div class="account__details">
+						<img
+							class="account__img"
+							src="../assets/images/accout__img.png"
+							alt=""
+						/>
+						<p class="account__name">Ahmed</p>
+						<img
+							alt=""
+							src="../assets/images/Mask Group 29528.svg"
+							class="arrow__icon"
+						/>
+					</div>
+					<div class="account__popup">
+						<div class="popup__header">
+							<img
+								alt=""
+								src="../assets/images/accout__img.png"
+								class="account__img"
+							/>
+							<div class="account__content__details">
+								<p class="account__name">Ahmed</p>
+								<p class="account__number">+20 1052431536</p>
+							</div>
+						</div>
+						<div class="popup__content">
+							<p class="profile">
+								<img src="../assets/images/profile.svg" alt="" /> View Profile
+							</p>
+							<p class="my__ads">
+								<img src="../assets/images/my-ads.svg" alt="" /> My Ads
+							</p>
+							<p class="my__bundle">
+								<img src="../assets/images/bundle.svg" alt="" /> My Bundle
+							</p>
+							<p class="my__favorites">
+								<img src="../assets/images/my-favorites.svg" alt="" /> My
+								Favorites
+							</p>
+						</div>
+						<div class="popup__footer">
+							<img src="../assets/images/logout.svg" class="logout__icon" /> Log
+							out
+						</div>
+					</div>
+				</div>
+				<!-- add ads button -->
+				<div class="add__ads">
+					<a class="add__ads__btn">
+						<svg
+							class="add__icon"
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+						>
+							<defs>
+								<clipPath id="clip-path">
+									<rect
+										id="Rectangle_11047"
+										data-name="Rectangle 11047"
+										width="24"
+										height="24"
+										transform="translate(-448 1863)"
+										fill="#f6f8fa"
+										stroke="#707070"
+										stroke-width="1"
+									/>
+								</clipPath>
+							</defs>
+							<g
+								id="Mask_Group_318"
+								data-name="Mask Group 318"
+								transform="translate(448 -1863)"
+								clip-path="url(#clip-path)"
+							>
+								<path
+									id="Icon_awesome-plus"
+									data-name="Icon awesome-plus"
+									d="M13.445,7.661H8.791V3.234A1.01,1.01,0,0,0,7.757,2.25H6.723a1.01,1.01,0,0,0-1.034.984V7.661H1.034A1.01,1.01,0,0,0,0,8.645v.984a1.01,1.01,0,0,0,1.034.984H5.688V15.04a1.01,1.01,0,0,0,1.034.984H7.757a1.01,1.01,0,0,0,1.034-.984V10.613h4.654a1.01,1.01,0,0,0,1.034-.984V8.645A1.01,1.01,0,0,0,13.445,7.661Z"
+									transform="translate(-443.24 1865.863)"
+									fill="#f6f8fa"
+								/>
+							</g>
+						</svg>
+						Add Ads
+					</a>
+				</div>
+			</nav>
+		</header>
+
+		<!----------- safety rules section ----------->
+
+		<section class="safety-rules">
+			<h2 class="safety-rules__title">Terms Of Use</h2>
+			<div class="safety-rules__content">
+				<p class="safety-rules__text">
+					The website and the service are provided to you subject to these
+					taswiq 4u terms of use (these “terms”).
+				</p>
+				<ul class="privacy__rules">
+					<li class="answer">
+						The website and the service are provided to you subject to these
+						taswiq 4u terms of use (these “terms”).
+					</li>
+					<li class="answer">
+						For the purpose of the terms and wherever the context so requires,
+						the terms ‘you’ and “your” shall mean any person who uses the
+						website or the service in any manner whatsoever including persons
+						browsing the website and its content, posting comments or any
+						content or responding to any advertisements or content on the
+						website.
+					</li>
+					<li class="answer">
+						By accessing, browsing or using the website or service, you agree to
+						comply with these terms. Additionally, when using a portion of the
+						service, you agree to conform to any applicable posted guidelines
+						for such service, which may change or be updated from time to time
+						at Taswiq 4 u’s sole discretion.
+					</li>
+					<li class="answer">
+						You understand and agree that you are solely responsible for
+						reviewing these terms from time to time. Should you object to any
+						term or condition of these terms, any guideline, or any subsequent
+						changes thereto or become unhappy with taswiq4u or the service in
+						any way, your only choice is to immediately discontinue use of the
+						taswiq4uwebsite.
+					</li>
+					<li class="answer">
+						These terms may be updated by taswiq4uat any time at its sole
+						discretion. Taswiq4umay send you notice of changes to the website or
+						the terms pursuant to section xxi (i) herein.
+					</li>
+				</ul>
+				<h3 class="question">Description of service and content policy</h3>
+				<ul class="privacy__rules">
+					<li class="answer">
+						Taswiq4uis the next generation of free online classifieds. We act as
+						an online market place platform to allow our users who comply with
+						these terms to offer, sell, and buy products and services listed on
+						the website. Although you may be able to conduct payment and other
+						transactions through the website, using third-party vendors,
+						taswiq4uis not in any way involved in such transactions. As a
+						result, and as discussed in more detail in these terms, you hereby
+						acknowledge and agree that taswiq4uis not a party to such
+						transactions, has no control over any element of such transactions,
+						and shall have no liability to any party in connection with such
+						transactions. You use the service and the website at your own risk.
+					</li>
+					<li class="answer">
+						You understand that taswiq4udoes not control, and is not responsible
+						for ads, directory information, business listings/information,
+						messages between users, including without limitation e-mails sent
+						from outside Taswiq 4 u’s domain or other means of electronic
+						communication, whether through the website or another third party
+						website (defined below) or offerings, comments, user postings,
+						files, images, photos, video, sounds, business listings/information
+						and directory information or any other material made available
+						through the website and the service (“content”), and that by using
+						the website and the service, you may be exposed to content that is
+						offensive, indecent, inaccurate, misleading, or otherwise
+						objectionable.
+					</li>
+					<li class="answer">
+						You acknowledge and agree that you are responsible for and must
+						evaluate, and bear all risks associated with, the use of any
+						content, that you may not rely on said content, and that under no
+						circumstances will taswiq4ube liable in any way for the content or
+						for any loss or damage of any kind incurred as a result of the
+						browsing, using or reading any content listed, e-mailed or otherwise
+						made available via the service. You acknowledge and agree that
+						taswiq4upermits such goods and services to be displayed and offered
+						on the website that conform with the terms stated herein, however
+						taswiq4udoes not pre-screen or approve any content, but that
+						taswiq4uhas the right, in its sole and absolute discretion, to
+						refuse, delete or move any content that is or may be available
+						through the service, for violating these terms and such violation
+						being brought to Taswiq 4 u’s knowledge or for any other reason or
+						no reason at all. Furthermore, the website and content available
+						through the website may contain links to other third-party websites
+						(“third party websites”), which are completely unrelated to Taswiq 4
+						u. If you link to third party websites, you may be subject to those
+						third-party websites’ terms and conditions and other policies.
+						Taswiq4umakes no representation or guarantee as to the accuracy or
+						authenticity of the information contained in any such third-party
+						website, and your linking to any other websites is completely at
+						your own risk and taswiq4udisclaims all liability thereto.
+					</li>
+					<li class="answer">
+						You acknowledge and agree that you are solely responsible for your
+						own content posted on, transmitted through, or linked from the
+						service and the consequences of posting, transmitting, linking or
+						publishing it. More specifically, you are solely responsible for all
+						content that you upload, email or otherwise make available via the
+						service. In connection with such content posted on, transmitted
+						through, or linked from the service by you, you affirm, acknowledge,
+						represent, warrant and covenant that: i) you have developed the
+						contents such as description and/or photographs in accordance with
+						the instructions and guidance for placing an ad provided by taswiq4u
+						on the website and that any copyrights therein belongs to taswiq4u
+						and, to any extent, should you be deemed to own any copyright you
+						hereby assign any such copyright to taswiq4u. Ii) you acknowledge
+						that the information and/or photographs that you post on the website
+						is stored and compiled by taswiq4u in a proprietary database and
+						that the uploaded information and/or photographs are modified by
+						taswiq4u by applying a watermark of taswiq4u logo and in such
+						derivate works also the copyright belongs to taswiq4u. Iii) you
+						shall continue to, for such time the content is available on the
+						website, have the necessary licenses, authorizations, consents, and
+						permissions to use such content on the service and website
+						(including without limitation all patent, trademark, trade secret,
+						copyright or other proprietary rights in and to any and all such
+						content) and wherever required, in such cases where you have the
+						right, hereby authorize and license taswiq4u to exclusively use such
+						content to enable inclusion and use of the content in the manner
+						contemplated by the service, the website and these terms. and iv)
+						you have the written consent, release, and/or permission of each and
+						every identifiable individual person or business in the content to
+						use the name or likeness of each and every such identifiable
+						individual person or business to enable inclusion and use of the
+						content in the manner contemplated by the service, the website and
+						these terms. For clarity, by submitting any content on the website,
+						as aforesaid, wherever you retain any ownership rights in the
+						content, you hereby grant to taswiq4u an irrevocable,
+						non-cancellable, perpetual, worldwide, exclusive, royalty-free,
+						sub-licensable, transferable license to use, reproduce, distribute,
+						prepare derivative works of, display, and perform the content in
+						connection with the website and taswiq4u’s (and its successors’)
+						business, including without limitation for the purpose of promoting
+						and redistributing part or all of the website and content therein
+						(and derivative works thereof) in any media formats and through any
+						media channels now or hereafter known. Furthermore, by you posting
+						content to any public area of the service, to the extent you retain
+						any ownership of any rights, you agree to and do hereby grant to
+						taswiq4u all exclusive rights necessary to prohibit or allow any
+						subsequent aggregation, display, copying, duplication, reproduction,
+						or exploitation of the content on the service or website by any
+						party for any purpose including the right to initiate legal action
+						in accordance with the copyright and other laws of Egypt. You also
+						hereby grant each user of the website a non-exclusive license to
+						access your content through the website. The foregoing license to
+						each user granted by you terminates once you or taswiq4u remove or
+						delete such content from the website
+					</li>
+					<li class="answer">
+						Taswiq4u does not endorse any content or any opinion, statement,
+						recommendation, or advice expressed therein, and taswiq4u expressly
+						disclaims any and all liability in connection with user content.
+						Taswiq4u does not permit copyright infringing activities and
+						infringement of intellectual property rights on the website, and
+						taswiq4u may, at its sole discretion, remove any infringing content
+						if properly notified in accordance with applicable law that such
+						content infringes on another’s intellectual property rights.
+						Taswiq4u reserves the right to remove any content without prior
+						notice. Taswiq4u may also terminate a user’s access to the website,
+						if they are determined to be a repeat infringer or found to be
+						indulging in any act contrary to these terms. A repeat infringer is
+						a user who has been notified of infringing activity more than twice
+						and/or has had a user submission removed from the website more than
+						twice. Further, at its sole discretion, taswiq4u reserves the right
+						to decide whether any content is appropriate and complies with these
+						terms.
+					</li>
+				</ul>
+				<h3 class="question">Featured ads</h3>
+				<ul class="privacy__rules">
+					<li class="answer">
+						Taswiq4u may offer a service known as “featured ads” where users may
+						pay a non-refundable fee to have their ads posted in selected
+						locations on the website, thus potentially increasing an ads’
+						visibility. In order to purchase a featured ad, you may be required
+						to transmit certain information through a third-party service
+						provider, including but not limited to a third-party payment service
+						provider, which may be governed by its own terms of use and other
+						policies. Taswiq4u makes no representation or guarantee as to the
+						safety or security of the information transmitted to any third-party
+						service provider, and your linking to any third-party service is
+						completely at your own risk, and taswiq4u disclaims all liability
+						related thereto.
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- select-category-modal -->
+		<div class="all-category__modal">
+			<div class="modal__container">
+				<div class="modal__header">
+					<p>Select Category</p>
+				</div>
+				<div class="modal__content">
+					<div class="menu">
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+					</div>
+					<div class="submenu">
+						<p class="back submenu__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu2">
+						<p class="back submenu2__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu3">
+						<p class="back submenu3__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu4">
+						<p class="back submenu4__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="select-category__modal">
+			<div class="modal__container">
+				<div class="modal__header">
+					<p>Select Category</p>
+				</div>
+				<div class="modal__content">
+					<div class="menu">
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+						<p class="menu__link">
+							<img src="../assets/images/car.svg" />
+							Cars & vehichles
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="modal__arrow"
+							/>
+						</p>
+					</div>
+					<div class="submenu">
+						<p class="back submenu__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu__link">
+							car
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu2">
+						<p class="back submenu2__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu2__link">
+							used cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu3">
+						<p class="back submenu3__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+						<p class="submenu3__link">
+							American cars
+							<img src="../assets/images/right__arrow.svg" />
+						</p>
+					</div>
+					<div class="submenu4">
+						<p class="back submenu4__back">
+							<img
+								src="../assets/images/right__arrow.svg"
+								class="back__arrow"
+							/>
+							Back
+						</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+						<p class="submenu4__link">Toyota</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!------------------- footer ----------------->
+
+		<footer class="footer">
+			<div class="footer__content">
+				<div class="footer__content__left">
+					<h3 class="footer__content__title">About Us</h3>
+					<a class="footer__link">Privacy Policy</a>
+					<a class="footer__link">FAQ</a>
+					<a class="footer__link">Safety Rules</a>
+					<a class="footer__link">Terms of use</a>
+				</div>
+				<div class="footer__content__middle">
+					<h3 class="footer__content__title">Categories</h3>
+					<div class="footer__links__container">
+						<div class="footer__links">
+							<a class="footer__link">Cars & Vehicles</a>
+							<a class="footer__link">Properties</a>
+							<a class="footer__link">Mobile Phones</a>
+							<a class="footer__link">Electronics</a>
+							<a class="footer__link">Video Games</a>
+						</div>
+						<div class="footer__links">
+							<a class="footer__link">Fashion</a>
+							<a class="footer__link">Baby</a>
+							<a class="footer__link">Pets</a>
+							<a class="footer__link">Jobs</a>
+							<a class="footer__link">Furniture</a>
+						</div>
+						<div class="footer__links">
+							<a class="footer__link">Sports Equipments</a>
+							<a class="footer__link">General Constructing</a>
+							<a class="footer__link">Services</a>
+							<a class="footer__link">Education</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__content__right">
+					<h3 class="footer__content__title">Follow Us</h3>
+					<div class="social__media__links">
+						<img
+							class="social__media__link"
+							src="../assets/images/Group 73150.png"
+							alt=""
+						/>
+						<img
+							class="social__media__link"
+							src="../assets/images/Group 73151.png"
+							alt=""
+						/>
+						<img
+							class="social__media__link"
+							src="../assets/images/Group 73152.png"
+							alt=""
+						/>
+					</div>
+					<p class="download__app__actions">
+						<img
+							alt=""
+							src="../assets/images/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.png"
+							class="download__app app__store"
+						/>
+						<img
+							alt=""
+							src="../assets/images/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.png"
+							class="download__app play__store"
+						/>
+					</p>
+				</div>
+			</div>
+			<p class="copyrights">Copyright 2022 - all rights reserved to Taswiq4U</p>
+		</footer>
+
+		<!-- scripts -->
+		<script src="../js/safety-rules.js"></script>
+		<script src="../js/all-category-modal.js"></script>
+		<script src="../js/select-category-modal.js"></script>
+		<script>
+			$(function () {
+				$('.selectpicker').selectpicker();
+			});
+		</script>
+	</body>
+</html>

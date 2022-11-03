@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="71" viewBox="0 0 71 71">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17869" data-name="Rectangle 17869" width="35" height="35" transform="translate(98 1847)" fill="#53b553" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_73635" data-name="Group 73635" transform="translate(-1085 -276)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1085 276)" fill="#fff" stroke="#cfcfcf" stroke-width="1" stroke-dasharray="3">
+      <circle cx="35.5" cy="35.5" r="35.5" stroke="none"/>
+      <circle cx="35.5" cy="35.5" r="35" fill="none"/>
+    </g>
+    <g id="Mask_Group_29483" data-name="Mask Group 29483" transform="translate(1005 -1553)" clip-path="url(#clip-path)">
+      <g id="email" transform="translate(103.342 1850.756)">
+        <g id="Group_31431" data-name="Group 31431" transform="translate(16.727 6.417)">
+          <g id="Group_31430" data-name="Group 31430">
+            <path id="Path_20665" data-name="Path 20665" d="M31.451,6.954l-7.374,7.327,7.374,7.327a2.112,2.112,0,0,0,.214-.916V7.869A2.112,2.112,0,0,0,31.451,6.954Z" transform="translate(-24.077 -6.954)" fill="#53b553"/>
+          </g>
+        </g>
+        <g id="Group_31433" data-name="Group 31433" transform="translate(1.222 5.195)">
+          <g id="Group_31432" data-name="Group 31432">
+            <path id="Path_20666" data-name="Path 20666" d="M22.715,5.2H2.674a2.112,2.112,0,0,0-.916.214l9.425,9.378a2.139,2.139,0,0,0,3.022,0l9.425-9.378A2.112,2.112,0,0,0,22.715,5.2Z" transform="translate(-1.758 -5.195)" fill="#53b553"/>
+          </g>
+        </g>
+        <g id="Group_31435" data-name="Group 31435" transform="translate(0 6.417)">
+          <g id="Group_31434" data-name="Group 31434">
+            <path id="Path_20667" data-name="Path 20667" d="M.214,6.954A2.112,2.112,0,0,0,0,7.869V20.692a2.112,2.112,0,0,0,.214.916l7.374-7.327Z" transform="translate(0 -6.954)" fill="#53b553"/>
+          </g>
+        </g>
+        <g id="Group_31437" data-name="Group 31437" transform="translate(1.222 14.751)">
+          <g id="Group_31436" data-name="Group 31436">
+            <path id="Path_20668" data-name="Path 20668" d="M16.256,18.95l-1.044,1.044a3.566,3.566,0,0,1-5.037,0L9.133,18.95,1.758,26.277a2.112,2.112,0,0,0,.916.214H22.715a2.112,2.112,0,0,0,.916-.214Z" transform="translate(-1.758 -18.95)" fill="#53b553"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

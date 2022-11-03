@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2399" data-name="Rectangle 2399" width="52" height="52" transform="translate(0.124 -0.251)" fill="#818391" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_24" data-name="Mask Group 24" transform="translate(-0.124 0.251)" clip-path="url(#clip-path)">
+    <g id="Icon_ionic-ios-camera" data-name="Icon ionic-ios-camera" transform="translate(8.915 12.461)">
+      <path id="Path_5542" data-name="Path 5542" d="M24.069,20.349a5.056,5.056,0,1,1-5.056-5.056A5.056,5.056,0,0,1,24.069,20.349Z" transform="translate(-1.997 -5.894)" fill="#818391"/>
+      <path id="Path_5543" data-name="Path 5543" d="M35.828,12.129H31a1.438,1.438,0,0,1-1.063-.479c-2.517-2.818-3.465-3.775-4.493-3.775H17.864c-1.037,0-2.056.957-4.582,3.784a1.411,1.411,0,0,1-1.055.47h-.363V11.42a.711.711,0,0,0-.709-.709h-2.3a.711.711,0,0,0-.709.709v.709H7.478A2.874,2.874,0,0,0,4.5,14.85v15.6A3.068,3.068,0,0,0,7.469,33.4H35.828a2.841,2.841,0,0,0,2.7-2.951V14.85A2.641,2.641,0,0,0,35.828,12.129ZM21.87,29.889a7.577,7.577,0,1,1,7.214-7.214A7.584,7.584,0,0,1,21.87,29.889Zm8.153-12.62a1.152,1.152,0,1,1,1.152-1.152A1.15,1.15,0,0,1,30.023,17.269Z" transform="translate(-4.5 -7.875)" fill="#818391"/>
+    </g>
+  </g>
+</svg>
