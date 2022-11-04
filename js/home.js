@@ -11,6 +11,9 @@ const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	direction: 'horizontal',
 	slidesPerGroup: 1,
+	autoplay: {
+    delay: 3000,
+	},
 	// centeredSlidesBounds: true,
 	// loop:true,
 	// slidesOffsetAfter: 200,
@@ -43,16 +46,6 @@ const swiper = new Swiper('.swiper', {
 	},
 });
 
-const adSwiper = new Swiper('.swiper__ad__modal', {
-	slidesPerView: 1,
-  autoplay: {
-    delay: 3000,
-	},
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-});
 
 
 

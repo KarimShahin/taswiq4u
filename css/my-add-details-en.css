@@ -1,5 +1,6 @@
 :root {
   --clr--primary: #53b553;
+  --clr--primary--hover: #53b55399;
   --font--rubik: 'Rubik', sans-serif;
   --font--open: 'Open Sans', sans-serif;
   --container--padding: 18rem;
@@ -963,7 +964,7 @@ label {
 	flex-shrink: 0;
 }
 
-.delete__modal__container {
+.delete__modal__container,.modal__container {
 	width: 30%;
 	/* aspect-ratio: 1; */
 	display: flex;
@@ -1123,6 +1124,113 @@ textarea {
   cursor: pointer;
 }
 
+.delete__modal,
+.favorite__modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #00000055;
+  backdrop-filter: blur(1.5rem);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.favorite__modal {
+  /* background-color: transparent; */
+  backdrop-filter: none;
+}
+
+.favorite__modal__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2d3142;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 1rem;
+  font-family: var(--font--rubik);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+
+.favorite__modal__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.content__text {
+  width: 100%;
+  background-color: #d4edda;
+  color: #3c674b;
+  padding: 0.75rem 1rem;
+  font-family: var(--font--rubik);
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+
+.favorite__modal__footer {
+  border-top: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.close__btn {
+  width: 12px;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+.confirm__btn {
+  background-color: var(--clr--primary);
+  color: #fff;
+  font-family: var(--font--rubik);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.confirm__btn:hover {
+  background-color: var(--clr--primary--hover);
+  color: #fff;
+}
+
+.delete__modal__container,
+.modal__container {
+  width: 30%;
+  /* aspect-ratio: 1; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+
+.modal__container {
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+}
+
+.close__modal__btn {
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
 
 /********** footer ***********/
 
@@ -1216,6 +1324,9 @@ textarea {
   .delete__modal__container {
     width: 35%;
   }
+    .favorite__modal .modal__container {
+      width: 35%;
+    }
 }
 
 @media (max-width: 1600px) {
@@ -1249,6 +1360,10 @@ textarea {
   .delete__modal__container {
     width: 40%;
   }
+
+    .favorite__modal .modal__container {
+      width: 40%;
+    }
 }
 
 @media (max-width: 1300px) {
@@ -1262,6 +1377,9 @@ textarea {
   .delete__modal__container {
     width: 45%;
   }
+    .favorite__modal .modal__container {
+      width: 45%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -1289,6 +1407,9 @@ textarea {
   .delete__modal__container {
     width: 50%;
   }
+    .favorite__modal .modal__container {
+      width: 50%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -1384,6 +1505,10 @@ textarea {
     width: 55%;
   }
 
+    .favorite__modal .modal__container {
+      width: 55%;
+    }
+
   .footer__links__container {
     gap: 2rem;
   }
@@ -1466,6 +1591,9 @@ textarea {
   .delete__modal__container {
     width: 60%;
   }
+    .favorite__modal .modal__container {
+      width: 60%;
+    }
 
   .footer__content {
     flex-wrap: wrap;
@@ -1517,6 +1645,9 @@ textarea {
   .delete__modal__container {
     width: 75%;
   }
+    .favorite__modal .modal__container {
+      width: 75%;
+    }
 }
 
 @media (max-width: 700px) {
@@ -1630,7 +1761,9 @@ textarea {
   .delete__modal__container {
     width: 90%;
   }
-
+.favorite__modal .modal__container {
+  width: 90%;
+}
   .card {
     width: 100%;
   }
@@ -1729,7 +1862,9 @@ textarea {
   .delete__modal__container {
     width: 95%;
   }
-
+.favorite__modal .modal__container {
+  width: 95%;
+}
   .modal__content {
     padding-inline: 1rem;
   }

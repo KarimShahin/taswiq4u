@@ -1000,6 +1000,9 @@ label {
 	.delete__modal__container,.modal__container {
     width: 35%;
   }
+		.favorite__modal .modal__container {
+			width: 35%;
+		}
 }
 @media (max-width: 1600px) {
 	.try__app {
@@ -1027,6 +1030,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 40%;
 	}
+		.favorite__modal .modal__container {
+			width: 40%;
+		}
 }
 @media (max-width: 1300px) {
 	.try__app__img {
@@ -1038,6 +1044,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 45%;
 	}
+		.favorite__modal .modal__container {
+			width: 45%;
+		}
 	.main__card {
 		width: calc(50% - 0.5rem);
 	}
@@ -1069,6 +1078,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 50%;
 	}
+		.favorite__modal .modal__container {
+			width: 50%;
+		}
 	.phone__container,
 .password__container,
 .current-password__container,
@@ -1172,6 +1184,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 55%;
 	}
+		.favorite__modal .modal__container {
+			width: 55%;
+		}
 	.footer__links__container {
 		gap: 2rem;
 	}
@@ -1227,6 +1242,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 60%;
 	}
+		.favorite__modal .modal__container {
+			width: 60%;
+		}
 	.main__card {
 		width: calc(50% - 0.5rem);
 	}
@@ -1271,6 +1289,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 75%;
 	}
+		.favorite__modal .modal__container {
+			width: 75%;
+		}
 	.save__changes__btn {
 		width: 50%;
 	}
@@ -1349,6 +1370,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 90%;
 	}
+		.favorite__modal .modal__container {
+			width: 90%;
+		}
 	.footer__content {
 		flex-direction: column;
 		gap: 2rem;
@@ -1423,6 +1447,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 95%;
 	}
+		.favorite__modal .modal__container {
+			width: 95%;
+		}
 	.modal__content {
 		padding-inline: 1rem;
 	}

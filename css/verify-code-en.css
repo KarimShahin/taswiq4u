@@ -474,7 +474,6 @@ label {
   font-size: 1.125rem;
   font-weight: 500;
   margin-bottom: 1rem;
-  display: none;
 }
 
 .resend__link {
@@ -483,7 +482,7 @@ label {
   font-size: 0.875rem;
   color: #333333;
   margin-bottom: 1rem;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 .verify__btn {

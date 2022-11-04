@@ -1009,6 +1009,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 35%;
 	}
+	.favorite__modal__container,.modal__container {
+		width: 35%;
+	}
 }
 @media (max-width: 1600px) {
 	.try__app {
@@ -1036,6 +1039,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 40%;
 	}
+	.favorite__modal__container,.modal__container {
+		width: 40%;
+	}
 }
 @media (max-width: 1300px) {
 	.try__app__img {
@@ -1045,6 +1051,9 @@ label {
 		width: 45%;
 	}
 	.delete__modal__container,.modal__container {
+		width: 45%;
+	}
+	.favorite__modal__container,.modal__container {
 		width: 45%;
 	}
 	.main__card {
@@ -1076,6 +1085,9 @@ label {
 		width: 50%;
 	}
 	.delete__modal__container,.modal__container {
+		width: 50%;
+	}
+	.favorite__modal__container,.modal__container {
 		width: 50%;
 	}
 		.phone__container,
@@ -1181,6 +1193,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 55%;
 	}
+	.favorite__modal__container,.modal__container {
+		width: 55%;
+	}
 	.footer__links__container {
 		gap: 2rem;
 	}
@@ -1236,6 +1251,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 60%;
 	}
+	.favorite__modal__container,.modal__container {
+		width: 60%;
+	}
 	.main__card {
 		width: calc(50% - 0.5rem);
 	}
@@ -1278,6 +1296,9 @@ label {
 		width: 75%;
 	}
 	.delete__modal__container,.modal__container {
+		width: 75%;
+	}
+	.favorite__modal__container,.modal__container {
 		width: 75%;
 	}
 	.save__changes__btn {
@@ -1358,6 +1379,9 @@ label {
 	.delete__modal__container,.modal__container {
 		width: 90%;
 	}
+	.favorite__modal__container,.modal__container {
+		width: 90%;
+	}
 	.footer__content {
 		flex-direction: column;
 		gap: 2rem;
@@ -1430,6 +1454,9 @@ label {
 		width: 95%;
 	}
 	.delete__modal__container,.modal__container {
+		width: 95%;
+	}
+	.favorite__modal__container,.modal__container {
 		width: 95%;
 	}
 	.modal__content {

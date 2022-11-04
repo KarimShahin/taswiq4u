@@ -1051,6 +1051,21 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="favorite__modal">
+			<div class="modal__container">
+				<div class="favorite__modal__header">
+					Featured Advertisment
+					<img src="../assets/images/close.svg" alt="" class="close__btn" />
+				</div>
+				<div class="favorite__modal__content">
+					<p class="content__text">Feature Ad will deduct two free ads</p>
+				</div>
+				<div class="favorite__modal__footer">
+					<a class="confirm__btn">confirm</a>
+				</div>
+			</div>
+		</div>
 		<!------------------- footer ----------------->
 
 		<footer class="footer">
@@ -1173,6 +1188,9 @@
 			const deleteBtn = document.querySelector('.delete__icon');
 			const cancelBtn = document.querySelector('.cancel__btn');
 			const starIcons = document.querySelectorAll('.star__icon');
+			const favoriteModal = document.querySelector('.favorite__modal');
+			const confirmBtn = document.querySelector('.confirm__btn');
+			const closeFavoriteBtn = document.querySelector('.close__btn');
 
 			subImgs.forEach((img) =>
 				img.addEventListener('click', (e) => {
@@ -1189,7 +1207,10 @@
 						'favourite.svg'
 					)
 						e.target.src = '../assets/images/not-favourite.svg';
-					else e.target.src = '../assets/images/favourite.svg';
+					else {
+						e.target.src = '../assets/images/favourite.svg';
+						favoriteModal.style.display = 'flex';
+					}
 				})
 			);
 
@@ -1208,6 +1229,14 @@
 
 			cancelBtn.addEventListener('click', () => {
 				deleteModal.style.display = 'none';
+			});
+
+			confirmBtn.addEventListener('click', () => {
+				favoriteModal.style.display = 'none';
+			});
+
+			closeFavoriteBtn.addEventListener('click', () => {
+				favoriteModal.style.display = 'none';
 			});
 		</script>
 	</body>

@@ -339,6 +339,7 @@ label {
 
 .swiper-slide {
 	position: unset;
+	cursor: pointer;
 }
 
 .swiper-button-prev,

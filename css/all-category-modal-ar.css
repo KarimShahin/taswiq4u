@@ -12,9 +12,9 @@
 }
 
 .all-category__modal .modal__container {
-  width: 90vw;
+  width: 80vw;
   background-color: #fff;
-  height: 90vh;
+  height: 80vh;
   border-radius: 1rem;
   box-shadow: 0 0 8px 2px #00000025;
 }
