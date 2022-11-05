@@ -48,6 +48,7 @@
 .select-category__modal .submenu4 {
   width: calc(100% / 5);
   height: 100%;
+  overflow: auto;
 }
 
 .select-category__modal .submenu,

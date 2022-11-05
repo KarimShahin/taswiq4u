@@ -780,7 +780,6 @@
 					verifyBtn.disabled = false;
 				}
 			})
-			verifyBtn.addEventListener("click",(e) => {
 				time.style.display = "flex";
 				let resetTime = new Date(new Date().getTime() + 2*60000);
 				time.textContent = "02:00"
@@ -797,7 +796,6 @@
 					verifyBtn.disabled = true
 					resendBtn.style.cursor = "pointer"
 				},120000)
-			})
 
 		</script>
 	</body>
