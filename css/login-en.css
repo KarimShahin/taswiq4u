@@ -569,12 +569,12 @@ label {
   gap: 0.5rem;
   align-self: center;
   justify-content: center;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .signup__link {
   color: var(--clr--primary);
-  font-size: 0.875rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 .signup__link:hover {

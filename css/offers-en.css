@@ -490,7 +490,7 @@ label {
   background-color: #F6F8FA;
   font-family: var(--font--rubik);
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -498,7 +498,7 @@ label {
 
 .breadcrumbs,
 .breadcrumbs__link {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: var(--font--rubik);
   color: #818391;
 }

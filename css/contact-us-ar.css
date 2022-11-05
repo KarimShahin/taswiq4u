@@ -426,7 +426,7 @@ label {
 .my__ads,
 .my__bundle,
 .my__favorites {
-  font-size: 0.875rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -454,7 +454,7 @@ label {
 .popup__footer {
   display: flex;
   gap: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   padding: 0.5rem 1rem;
   border-top: 1px solid #e3e7ef;
   align-items: center;
@@ -479,7 +479,7 @@ label {
   background-color: #F6F8FA;
   font-family: var(--font--rubik);
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .safety-rules__content {
@@ -515,7 +515,7 @@ label {
 
 .phone__title,
 .email__title {
-	font-size: 1.125rem;
+	font-size: 1.25rem;
 	font-family: var(--font--rubik);
 	color: #222222;
 }
@@ -524,7 +524,7 @@ label {
 .email__text {
 	font-weight: 300;
 	font-family: var(--font--open);
-	font-size: 0.875rem;
+	font-size: 1rem;
 	color: #555555;
 }
 
@@ -571,10 +571,10 @@ label {
 	justify-content: center;
 	padding: 1rem 0;
 	border: 0;
-	font-size: 0.875rem;
+	font-size: 1rem;
 }
 .btn-cc {
-	font-size: 0.875rem;
+	font-size: 1rem;
 }
 #btn-country {
 	padding-inline: 0.5rem;
